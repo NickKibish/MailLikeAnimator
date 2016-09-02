@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MailLikeAnimator_Example' do
+  pod 'MailLikeAnimator', :path => '../'
+
+  target 'MailLikeAnimator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
