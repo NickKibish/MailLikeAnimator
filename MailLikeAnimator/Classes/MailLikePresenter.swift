@@ -7,12 +7,13 @@
 //
 
 import UIKit
+private let viewTag = 101
 
 public class MailLikePresenter: NSObject {
     var animationDuration: NSTimeInterval = 0.5
-    let topMargin: CGFloat = 50
-    let presentingVCAlpha: CGFloat = 0.7
-    let scale: CGFloat = 0.9
+    var topMargin: CGFloat = 50
+    var presentingVCAlpha: CGFloat = 0.7
+    var scale: CGFloat = 0.9
 }
 
 extension MailLikePresenter: UIViewControllerAnimatedTransitioning {
@@ -59,8 +60,11 @@ extension MailLikePresenter: UIViewControllerAnimatedTransitioning {
             fromVC.view.alpha = alpha
             
         }) { (completed) in
-            toVC.view.frame = finalFrame
+            fromSnapshot.tag = viewTag
             containerView.insertSubview(fromSnapshot, atIndex: 0)
+            snapshot.removeFromSuperview()
+            toVC.view.frame = finalFrame
+            toVC.view.hidden = false
             
             transitionContext.completeTransition(completed)
         }

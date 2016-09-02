@@ -55,6 +55,9 @@
                                 <state key="normal" title="Dismiss">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="dismiss:" destination="Rxa-Rn-LVM" eventType="touchUpInside" id="S3f-Mk-Sp3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25098039220000001" green="0.70588235290000001" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>

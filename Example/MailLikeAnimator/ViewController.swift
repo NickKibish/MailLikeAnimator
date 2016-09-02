@@ -11,6 +11,7 @@ import MailLikeAnimator
 
 class ViewController: UIViewController {
     var presenter = MailLikePresenter()
+    var dismisser = MailLikeDismisser()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,5 +32,9 @@ class ViewController: UIViewController {
 extension ViewController: UIViewControllerTransitioningDelegate {
     func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return presenter
+    }
+    
+    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return dismisser
     }
 }
