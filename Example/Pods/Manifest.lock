@@ -1,0 +1,16 @@
+PODS:
+  - MailLikeAnimator (0.1.0)
+
+DEPENDENCIES:
+  - MailLikeAnimator (from `../`)
+
+EXTERNAL SOURCES:
+  MailLikeAnimator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MailLikeAnimator: 99530abe32c20a8d72237ac0e65085964991e7f5
+
+PODFILE CHECKSUM: d1bb4bb1bbd0404634e156d4e2aff8af6f93e752
+
+COCOAPODS: 1.0.1

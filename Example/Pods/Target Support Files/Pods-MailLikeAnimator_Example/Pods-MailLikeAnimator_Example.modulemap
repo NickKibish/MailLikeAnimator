@@ -1,0 +1,6 @@
+framework module Pods_MailLikeAnimator_Example {
+  umbrella header "Pods-MailLikeAnimator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

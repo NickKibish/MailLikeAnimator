@@ -1,0 +1,6 @@
+framework module MailLikeAnimator {
+  umbrella header "MailLikeAnimator-umbrella.h"
+
+  export *
+  module * { export * }
+}
