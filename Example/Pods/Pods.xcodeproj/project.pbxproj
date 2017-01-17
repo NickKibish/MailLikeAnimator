@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F82EE4A843D238B5C31CE8797546FD8 /* MailLikePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4684DFAD63741B49ED09B80B37941C /* MailLikePresenter.swift */; };
-		12900E1F5F7E200533DCE78B3F0098F2 /* MailLikeDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9794142CC7F5894AB738137B91162587 /* MailLikeDismisser.swift */; };
-		2E1F8584264DB3E89144F3CE6407D46F /* MailLikeAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E15F0DB36089771042F14B07F54E81 /* MailLikeAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DC7BD8A2FA20DB9AE2649FB655EF79E /* Pods-MailLikeAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 770591630FA8EF324230F1B85C3E4DBB /* Pods-MailLikeAnimator_Example-dummy.m */; };
-		4A4714045CE2D85326CD8921C7AF8C88 /* MailLikeAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FB526A01A609E7A1765C240C5F0F5A /* MailLikeAnimator-dummy.m */; };
-		898184FF3654AFB526BDCE919E72C1FD /* Pods-MailLikeAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E257C4CBDDDF14C71CE8399C5D146AC /* Pods-MailLikeAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E70D962492F813CBEEF47AC5F3ED78B /* Pods-MailLikeAnimator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AD9B73A7CB0D74000F600A256416F4 /* Pods-MailLikeAnimator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD2CC9EF80BFD1C254C0BA0328A1F65C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E8663ED93A3FD887F89FBFF8B37CF293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E96A098D0F0C1496DEAC7545727B2928 /* Pods-MailLikeAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D208B1D5C10E6DEE6A477BBE6B5CD5 /* Pods-MailLikeAnimator_Tests-dummy.m */; };
-		F32B6BF8D57471B988DFEF4AF3604AF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		044A096D8A42CDB92040FFA4B106BEC4 /* MailLikeDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9794142CC7F5894AB738137B91162587 /* MailLikeDismisser.swift */; };
+		04963D1F8C23EE0CA8A620476055EA53 /* MailLikeAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E15F0DB36089771042F14B07F54E81 /* MailLikeAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E91AC869D11870DA8405F55A68BD602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		192117C45808842FAF737257A142FEE1 /* Pods-MailLikeAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E257C4CBDDDF14C71CE8399C5D146AC /* Pods-MailLikeAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688F663FA60A4DA4124C5D61A8AE049D /* MailLikeAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FB526A01A609E7A1765C240C5F0F5A /* MailLikeAnimator-dummy.m */; };
+		964370A05CC271298AE0C9475BB16B03 /* MailLikePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4684DFAD63741B49ED09B80B37941C /* MailLikePresenter.swift */; };
+		A887E4B572110BF817C41EA1B90A99D7 /* Pods-MailLikeAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D208B1D5C10E6DEE6A477BBE6B5CD5 /* Pods-MailLikeAnimator_Tests-dummy.m */; };
+		AC1CDFB44E7BC8B9AA85E8E473366ABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C3C21421084B39C6F4F3EB7DF7B026D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CD1186AE36E9E809D2CD1A09FF0C32AC /* Pods-MailLikeAnimator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AD9B73A7CB0D74000F600A256416F4 /* Pods-MailLikeAnimator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF3D3A2965AECF58429F60F7D8504171 /* Pods-MailLikeAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 770591630FA8EF324230F1B85C3E4DBB /* Pods-MailLikeAnimator_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		80F34A2667831A0FEB9947D10411C386 /* PBXContainerItemProxy */ = {
+		72A99F25C3309012AAB1670581BFCE31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 90DD599BD8739226A591B0C37A2BE17A;
+			remoteGlobalIDString = 2A305E14DF6A2A8213680D4E046B960E;
 			remoteInfo = MailLikeAnimator;
 		};
 /* End PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		B01DAC841EA7B221394708EFF64ABA61 /* Pods-MailLikeAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MailLikeAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B087D800F43C4CC3A583889C3C4F7E01 /* Pods-MailLikeAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MailLikeAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C440BE1BA853DB7D46FE66599F5312A5 /* Pods-MailLikeAnimator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MailLikeAnimator_Example.modulemap"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D1B4E4D27DC14B69119280B6F2F1CED3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD0E7A9AD177B3671639ECAAEDEB47FD /* Pods-MailLikeAnimator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MailLikeAnimator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DFEC24D7EA5EB0DE0E8AA5A90F7740E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,27 +67,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DFD8B31524995C88B4F186709E9AAA6 /* Frameworks */ = {
+		092AE8D8C903F78DE3AA36501EEB9382 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8663ED93A3FD887F89FBFF8B37CF293 /* Foundation.framework in Frameworks */,
+				0E91AC869D11870DA8405F55A68BD602 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		812F3E6F3DA9FAB047A657B048FE6A07 /* Frameworks */ = {
+		2B949227EF16219FFE748736CC2F9FA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD2CC9EF80BFD1C254C0BA0328A1F65C /* Foundation.framework in Frameworks */,
+				C3C21421084B39C6F4F3EB7DF7B026D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		960CA85450B78244C067951CDC911CA7 /* Frameworks */ = {
+		BAD99116AC4AC187CC115B8E6614BC42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F32B6BF8D57471B988DFEF4AF3604AF5 /* Foundation.framework in Frameworks */,
+				AC1CDFB44E7BC8B9AA85E8E473366ABA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,14 +134,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		3E33ABA72A9A18109616028A99AF6BE6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +171,14 @@
 			path = "Target Support Files/Pods-MailLikeAnimator_Example";
 			sourceTree = "<group>";
 		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -210,7 +210,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -228,75 +228,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B430E7FFDE847CC98C3226DF98180EB /* Headers */ = {
+		2E07E401200ED518CB5419A14CCB7A09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898184FF3654AFB526BDCE919E72C1FD /* Pods-MailLikeAnimator_Tests-umbrella.h in Headers */,
+				CD1186AE36E9E809D2CD1A09FF0C32AC /* Pods-MailLikeAnimator_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D52FA12C471E582128E55D4C5A738A6A /* Headers */ = {
+		49514BA22A6B71AFDBDDF7BD7C19E014 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E70D962492F813CBEEF47AC5F3ED78B /* Pods-MailLikeAnimator_Example-umbrella.h in Headers */,
+				04963D1F8C23EE0CA8A620476055EA53 /* MailLikeAnimator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5E3B8DA625796DBB109AF5B2D70D03F /* Headers */ = {
+		E253934676890F436A6C7BDF77E491D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E1F8584264DB3E89144F3CE6407D46F /* MailLikeAnimator-umbrella.h in Headers */,
+				192117C45808842FAF737257A142FEE1 /* Pods-MailLikeAnimator_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		05A4A0B50B8D52EAFA2D4A7985D5FD22 /* Pods-MailLikeAnimator_Example */ = {
+		08D00D610071961E49B2FA96B16A34A4 /* Pods-MailLikeAnimator_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C89BAE3DEC1BBC99CEE34A0478A5EEE /* Build configuration list for PBXNativeTarget "Pods-MailLikeAnimator_Example" */;
+			buildConfigurationList = FF96614341C4D329C1808E4670A94FE3 /* Build configuration list for PBXNativeTarget "Pods-MailLikeAnimator_Tests" */;
 			buildPhases = (
-				40DEAA02339351E3DC76C0FA31674431 /* Sources */,
-				812F3E6F3DA9FAB047A657B048FE6A07 /* Frameworks */,
-				D52FA12C471E582128E55D4C5A738A6A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				54FA449914C217A748326DA26A9DC5EB /* PBXTargetDependency */,
-			);
-			name = "Pods-MailLikeAnimator_Example";
-			productName = "Pods-MailLikeAnimator_Example";
-			productReference = 73254E27172816B89109683172CD60D3 /* Pods_MailLikeAnimator_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		90DD599BD8739226A591B0C37A2BE17A /* MailLikeAnimator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6CB1F2EC6376778D57EC3A4C8E3D484E /* Build configuration list for PBXNativeTarget "MailLikeAnimator" */;
-			buildPhases = (
-				F497360EAB73015773DE393F8319520A /* Sources */,
-				6DFD8B31524995C88B4F186709E9AAA6 /* Frameworks */,
-				F5E3B8DA625796DBB109AF5B2D70D03F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MailLikeAnimator;
-			productName = MailLikeAnimator;
-			productReference = 15993AFFDE7BD6DE117D00400C1E9D97 /* MailLikeAnimator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D65F23A41DDCD8566C3DCCD5E73436B5 /* Pods-MailLikeAnimator_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD5E861DA2D554AF9EE024C550B977BD /* Build configuration list for PBXNativeTarget "Pods-MailLikeAnimator_Tests" */;
-			buildPhases = (
-				E712017AD7DEC52ED74CB2A7BDF7B80D /* Sources */,
-				960CA85450B78244C067951CDC911CA7 /* Frameworks */,
-				0B430E7FFDE847CC98C3226DF98180EB /* Headers */,
+				8B84199FA64F14A0F549A07B5495C59A /* Sources */,
+				BAD99116AC4AC187CC115B8E6614BC42 /* Frameworks */,
+				E253934676890F436A6C7BDF77E491D2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -307,6 +272,41 @@
 			productReference = A7581CD42949516FB58F29871E94BFA0 /* Pods_MailLikeAnimator_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		0A2E7A41E7016BD0C87D4661A082BA55 /* Pods-MailLikeAnimator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C321C90A7652258E42066532EC9C3E5 /* Build configuration list for PBXNativeTarget "Pods-MailLikeAnimator_Example" */;
+			buildPhases = (
+				C991CCD6C5BECE0B403BB6762311B636 /* Sources */,
+				092AE8D8C903F78DE3AA36501EEB9382 /* Frameworks */,
+				2E07E401200ED518CB5419A14CCB7A09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFBE68E8141DE6162265ED4761BA35F /* PBXTargetDependency */,
+			);
+			name = "Pods-MailLikeAnimator_Example";
+			productName = "Pods-MailLikeAnimator_Example";
+			productReference = 73254E27172816B89109683172CD60D3 /* Pods_MailLikeAnimator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A305E14DF6A2A8213680D4E046B960E /* MailLikeAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFD5E274D7CEC33FC6EF4162C707B5A /* Build configuration list for PBXNativeTarget "MailLikeAnimator" */;
+			buildPhases = (
+				71507086B693B7F15A210F29B10B37F2 /* Sources */,
+				2B949227EF16219FFE748736CC2F9FA2 /* Frameworks */,
+				49514BA22A6B71AFDBDDF7BD7C19E014 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailLikeAnimator;
+			productName = MailLikeAnimator;
+			productReference = 15993AFFDE7BD6DE117D00400C1E9D97 /* MailLikeAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -315,6 +315,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					0A2E7A41E7016BD0C87D4661A082BA55 = {
+						LastSwiftMigration = 0820;
+					};
+					2A305E14DF6A2A8213680D4E046B960E = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -328,53 +336,157 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90DD599BD8739226A591B0C37A2BE17A /* MailLikeAnimator */,
-				05A4A0B50B8D52EAFA2D4A7985D5FD22 /* Pods-MailLikeAnimator_Example */,
-				D65F23A41DDCD8566C3DCCD5E73436B5 /* Pods-MailLikeAnimator_Tests */,
+				2A305E14DF6A2A8213680D4E046B960E /* MailLikeAnimator */,
+				0A2E7A41E7016BD0C87D4661A082BA55 /* Pods-MailLikeAnimator_Example */,
+				08D00D610071961E49B2FA96B16A34A4 /* Pods-MailLikeAnimator_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40DEAA02339351E3DC76C0FA31674431 /* Sources */ = {
+		71507086B693B7F15A210F29B10B37F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC7BD8A2FA20DB9AE2649FB655EF79E /* Pods-MailLikeAnimator_Example-dummy.m in Sources */,
+				688F663FA60A4DA4124C5D61A8AE049D /* MailLikeAnimator-dummy.m in Sources */,
+				044A096D8A42CDB92040FFA4B106BEC4 /* MailLikeDismisser.swift in Sources */,
+				964370A05CC271298AE0C9475BB16B03 /* MailLikePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E712017AD7DEC52ED74CB2A7BDF7B80D /* Sources */ = {
+		8B84199FA64F14A0F549A07B5495C59A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E96A098D0F0C1496DEAC7545727B2928 /* Pods-MailLikeAnimator_Tests-dummy.m in Sources */,
+				A887E4B572110BF817C41EA1B90A99D7 /* Pods-MailLikeAnimator_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F497360EAB73015773DE393F8319520A /* Sources */ = {
+		C991CCD6C5BECE0B403BB6762311B636 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4714045CE2D85326CD8921C7AF8C88 /* MailLikeAnimator-dummy.m in Sources */,
-				12900E1F5F7E200533DCE78B3F0098F2 /* MailLikeDismisser.swift in Sources */,
-				0F82EE4A843D238B5C31CE8797546FD8 /* MailLikePresenter.swift in Sources */,
+				EF3D3A2965AECF58429F60F7D8504171 /* Pods-MailLikeAnimator_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54FA449914C217A748326DA26A9DC5EB /* PBXTargetDependency */ = {
+		7AFBE68E8141DE6162265ED4761BA35F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MailLikeAnimator;
-			target = 90DD599BD8739226A591B0C37A2BE17A /* MailLikeAnimator */;
-			targetProxy = 80F34A2667831A0FEB9947D10411C386 /* PBXContainerItemProxy */;
+			target = 2A305E14DF6A2A8213680D4E046B960E /* MailLikeAnimator */;
+			targetProxy = 72A99F25C3309012AAB1670581BFCE31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		10A9290CF2C60CAFADAEC1BBE54F38A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C997F7B548EEBBBB10A7A24247A1BF5 /* Pods-MailLikeAnimator_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MailLikeAnimator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MailLikeAnimator_Example/Pods-MailLikeAnimator_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MailLikeAnimator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BC8F1EB3311257C8B37E178ECBB9BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463D54D706D3CFAC4F06E949AE2A6D1A /* MailLikeAnimator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MailLikeAnimator/MailLikeAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MailLikeAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MailLikeAnimator/MailLikeAnimator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MailLikeAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73556CF6A6173F4CD347C305CC8C34A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B087D800F43C4CC3A583889C3C4F7E01 /* Pods-MailLikeAnimator_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MailLikeAnimator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MailLikeAnimator_Tests/Pods-MailLikeAnimator_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MailLikeAnimator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,6 +504,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -406,172 +519,14 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		26071EA960525333DDF9E981E9BED410 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 463D54D706D3CFAC4F06E949AE2A6D1A /* MailLikeAnimator.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MailLikeAnimator/MailLikeAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MailLikeAnimator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MailLikeAnimator/MailLikeAnimator.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MailLikeAnimator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		605872250018CFE8349B1C860735D67E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82734E85FDAB20DAA8E40F3219A10290 /* Pods-MailLikeAnimator_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MailLikeAnimator_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MailLikeAnimator_Example/Pods-MailLikeAnimator_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MailLikeAnimator_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		906BDA161C62AD0F11333D5CEF45FDCA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B7FCC0D1409D88D3B4FA24E69B77F26 /* Pods-MailLikeAnimator_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MailLikeAnimator_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MailLikeAnimator_Tests/Pods-MailLikeAnimator_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MailLikeAnimator_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B52E1905BB995DBD8BF3FB45B8AA8118 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 463D54D706D3CFAC4F06E949AE2A6D1A /* MailLikeAnimator.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MailLikeAnimator/MailLikeAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MailLikeAnimator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MailLikeAnimator/MailLikeAnimator.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MailLikeAnimator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CFC91A8A8B9C98945C598878E72E176B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C997F7B548EEBBBB10A7A24247A1BF5 /* Pods-MailLikeAnimator_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MailLikeAnimator_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MailLikeAnimator_Example/Pods-MailLikeAnimator_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MailLikeAnimator_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -589,6 +544,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -608,18 +564,21 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F8659CAF2092FFB4B216824EDF949DB5 /* Release */ = {
+		C6F69FECAED93769BB987CBE87145B1D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B087D800F43C4CC3A583889C3C4F7E01 /* Pods-MailLikeAnimator_Tests.release.xcconfig */;
+			baseConfigurationReference = 8B7FCC0D1409D88D3B4FA24E69B77F26 /* Pods-MailLikeAnimator_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -632,7 +591,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MailLikeAnimator_Tests/Pods-MailLikeAnimator_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -644,43 +603,112 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		DE9E43036FD54C67AFF1C025610DED7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463D54D706D3CFAC4F06E949AE2A6D1A /* MailLikeAnimator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MailLikeAnimator/MailLikeAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MailLikeAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MailLikeAnimator/MailLikeAnimator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MailLikeAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Release;
+		};
+		F8AE2D7D52E20AED1CC6AA407D78BA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82734E85FDAB20DAA8E40F3219A10290 /* Pods-MailLikeAnimator_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MailLikeAnimator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MailLikeAnimator_Example/Pods-MailLikeAnimator_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MailLikeAnimator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0CFD5E274D7CEC33FC6EF4162C707B5A /* Build configuration list for PBXNativeTarget "MailLikeAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC8F1EB3311257C8B37E178ECBB9BA7 /* Debug */,
+				DE9E43036FD54C67AFF1C025610DED7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C89BAE3DEC1BBC99CEE34A0478A5EEE /* Build configuration list for PBXNativeTarget "Pods-MailLikeAnimator_Example" */ = {
+		9C321C90A7652258E42066532EC9C3E5 /* Build configuration list for PBXNativeTarget "Pods-MailLikeAnimator_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				605872250018CFE8349B1C860735D67E /* Debug */,
-				CFC91A8A8B9C98945C598878E72E176B /* Release */,
+				F8AE2D7D52E20AED1CC6AA407D78BA0D /* Debug */,
+				10A9290CF2C60CAFADAEC1BBE54F38A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CB1F2EC6376778D57EC3A4C8E3D484E /* Build configuration list for PBXNativeTarget "MailLikeAnimator" */ = {
+		FF96614341C4D329C1808E4670A94FE3 /* Build configuration list for PBXNativeTarget "Pods-MailLikeAnimator_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26071EA960525333DDF9E981E9BED410 /* Debug */,
-				B52E1905BB995DBD8BF3FB45B8AA8118 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD5E861DA2D554AF9EE024C550B977BD /* Build configuration list for PBXNativeTarget "Pods-MailLikeAnimator_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				906BDA161C62AD0F11333D5CEF45FDCA /* Debug */,
-				F8659CAF2092FFB4B216824EDF949DB5 /* Release */,
+				C6F69FECAED93769BB987CBE87145B1D /* Debug */,
+				73556CF6A6173F4CD347C305CC8C34A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

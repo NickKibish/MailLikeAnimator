@@ -21,7 +21,7 @@ class NewViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func dismiss(sender: AnyObject!) {
-        dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func dismiss(_ sender: AnyObject!) {
+        self.dismiss(animated: true, completion: nil)
     }
 }

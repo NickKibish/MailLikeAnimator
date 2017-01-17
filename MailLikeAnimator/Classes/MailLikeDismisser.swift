@@ -9,58 +9,63 @@
 import UIKit
 private let viewTag = 101
 
-public class MailLikeDismisser: NSObject {
-    var animationDuration: NSTimeInterval = 0.5
+open class MailLikeDismisser: NSObject {
+    var animationDuration: TimeInterval = 0.5
     var topMargin: CGFloat = 50
     var presentingVCAlpha: CGFloat = 0.7
     var scale: CGFloat = 0.9
 }
 
 extension MailLikeDismisser: UIViewControllerAnimatedTransitioning {
-    public func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return animationDuration
     }
     
-    public func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
-        guard let fromVC = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey),
-            let containerView = transitionContext.containerView(),
-            let toVC = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey) else {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+        guard let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from),
+            let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to) else {
                 return
         }
         
-        var toSnapshot = toVC.view.snapshotViewAfterScreenUpdates(true)
+        let containerView = transitionContext.containerView
+        
+        var toSnapshot = toVC.view.snapshotView(afterScreenUpdates: true)
         if let v = containerView.viewWithTag(viewTag) {
             toSnapshot = v
         }
         toVC.view.removeFromSuperview()
         
-        let fromSnapshot = fromVC.view.snapshotViewAfterScreenUpdates(true)
-        fromSnapshot.frame = fromVC.view.frame
+        let fromSnapshot = fromVC.view.snapshotView(afterScreenUpdates: true)
+        fromSnapshot?.frame = fromVC.view.frame
         fromVC.view.removeFromSuperview()
         
-        containerView.addSubview(toSnapshot)
-        containerView.addSubview(fromSnapshot)
+        if let toSnapshot = toSnapshot {
+            containerView.addSubview(toSnapshot)
+        }
+        if let fromSnapshot = fromSnapshot {
+            containerView.addSubview(fromSnapshot)
+        }
         
         toVC.view.alpha = 1
-        toVC.view.transform = CGAffineTransformMakeScale(1, 1)
-        toVC.view.hidden = true
+        toVC.view.transform = CGAffineTransform(scaleX: 1, y: 1)
+        toVC.view.isHidden = true
         
-        let duration = transitionDuration(transitionContext)
+        let duration = transitionDuration(using: transitionContext)
         
-        var finishedFrame = fromSnapshot.frame
-        finishedFrame.origin.y += finishedFrame.height
+        var finishedFrame = fromSnapshot?.frame
+        finishedFrame?.origin.y += (finishedFrame?.height)!
         
-        UIView.animateWithDuration(duration, animations: {
-            fromSnapshot.frame = finishedFrame
-            toSnapshot.alpha = 1
-            toSnapshot.transform = CGAffineTransformMakeScale(1, 1)
+        UIView.animate(withDuration: duration, animations: {
+            fromSnapshot?.frame = finishedFrame!
+            toSnapshot?.alpha = 1
+            toSnapshot?.transform = CGAffineTransform(scaleX: 1, y: 1)
             
-        }) { (finished) in
-            fromSnapshot.removeFromSuperview()
-            toSnapshot.removeFromSuperview()
-            toVC.view.hidden = false
+        }, completion: { (finished) in
+            fromSnapshot?.removeFromSuperview()
+            toSnapshot?.removeFromSuperview()
+            toVC.view.isHidden = false
             
             transitionContext.completeTransition(finished)
-        }
+        }) 
     }
 }

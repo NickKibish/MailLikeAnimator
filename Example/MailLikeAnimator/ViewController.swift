@@ -23,18 +23,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        segue.destinationViewController.transitioningDelegate = self 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        segue.destination.transitioningDelegate = self 
     }
 
 }
 
 extension ViewController: UIViewControllerTransitioningDelegate {
-    func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return presenter
     }
     
-    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return dismisser
     }
 }

@@ -2,7 +2,7 @@
   "name": "MailLikeAnimator",
   "version": "0.1.0",
   "summary": "A short description of MailLikeAnimator.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "Animation transitioning like in iOS Mail App",
   "homepage": "https://github.com/<GITHUB_USERNAME>/MailLikeAnimator",
   "license": {
     "type": "MIT",
@@ -12,7 +12,7 @@
     "Nick Kibish": "nick.kibish@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MailLikeAnimator.git",
+    "git": "https://github.com/SnowyWhite/MailLikeAnimator.git",
     "tag": "0.1.0"
   },
   "platforms": {
